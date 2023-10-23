@@ -13,7 +13,7 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
-  --navy: #000080;
+  --navy: #121328;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -332,6 +332,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--navy);
+}
+
 /* =============
     Typography
 ============= */
@@ -367,3 +371,6 @@ textarea {
 /* =============
     Footer
 ============= */
+footer #footer {
+  background-color: var(--navy);
+}
