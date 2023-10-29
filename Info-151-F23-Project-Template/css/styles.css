@@ -386,6 +386,37 @@ textarea {
 /* =============
     Footer
 ============= */
-footer #footer {
+body footer {
   background-color: var(--navy);
+}
+body footer p {
+  color: var(--white);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+body footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+body footer ul li {
+  list-style: none;
+}
+body footer ul li h1 {
+  color: var(--white);
+}
+body footer ul li a:link, body footer ul li a:visited {
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+}
+body footer ul li a:hover, body footer ul li a:active {
+  color: green;
+}
+body footer ul li form button {
+  background-color: aqua;
+  color: white;
 }

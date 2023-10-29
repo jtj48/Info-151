@@ -2,10 +2,110 @@
     Footer
 ============= */
 
-footer{
-    #footer{
+body{
+    footer{
         background-color: var(--navy);
+        p{
+            color: var(--white);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+             
+                h1{
+                    color: var(--white);
+
+                }
+                a:link, a:visited{
+                    font-size: 20px;
+                    color: gray;
+                    text-decoration: none;
+                    
+
+                }
+                a:hover,a:active{
+                    color: green;
+                }
+            }
+            li{
+                h1{
+
+                }
+                p{
+
+                }
+                form{
+                    button{
+                        background-color: aqua;
+                        color: white;
+                    }
+                }
+            }
+    
+        }
     }
 }
 
 
+
+
+// #hero {
+
+//     nav{
+//         ul{
+//             margin: 0;
+//             padding: 0;
+//             display: flex;
+//             justify-content: space-evenly;
+//             li{
+//                 list-style: none;
+//                 //love hate
+//                 a:link, a:visited{
+
+//                     font-size: 20px;
+//                     color: white;
+//                     text-decoration: none;
+//                 }
+//                 a:hover, a:active{
+//                     color: green;
+
+//                 }
+//                 button{
+//                     padding: 10px;
+//                     background-color: var(--blue);
+//                     color: white;
+//                     border: none;
+
+//                 }
+//             }
+//         }
+//     }
+
+
+
+
+//     section{
+//         h1{
+//             color: var(--white);
+            
+//         }
+//         p{
+//             color: var(--white);
+//             ul{
+//                 li{
+//                     button{
+//                         padding: 10px;
+//                         background-color: var(--blue);
+//                         color: var(--white);
+//                         border: none;
+//                     }
+//                 }
+                
+//             }
+//         }
+//     }
+// }
