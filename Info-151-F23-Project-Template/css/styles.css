@@ -430,5 +430,8 @@ header {
   color: var(--white);
 }
 #hero section p ul li button {
-  color: var(--blue);
+  padding: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
 }
