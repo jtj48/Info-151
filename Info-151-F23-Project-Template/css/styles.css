@@ -402,6 +402,27 @@ header {
 /* =============
     Hero
 ============= */
+#hero nav ul {
+  margin: 0;
+  padding: 0;
+}
+#hero nav ul li {
+  list-style: none;
+}
+#hero nav ul li a:link, #hero nav ul li a:visited {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+#hero nav ul li a:hover, #hero nav ul li a:active {
+  color: green;
+}
+#hero nav ul li button {
+  padding: 10px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+}
 #hero section h1 {
   color: var(--white);
 }
