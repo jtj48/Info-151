@@ -347,11 +347,15 @@ body {
 h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 p {
   margin: 0;
   padding: 0;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 ul {
@@ -398,3 +402,12 @@ header {
 /* =============
     Hero
 ============= */
+#hero section h1 {
+  color: var(--white);
+}
+#hero section p {
+  color: var(--white);
+}
+#hero section p ul li button {
+  color: var(--blue);
+}
