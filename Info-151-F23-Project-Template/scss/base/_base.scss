@@ -3,7 +3,19 @@
 ============= */
 
 body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
     #Classic{
         background-color: var(--purple);
+    }
+
+    h1{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+    ul{
+
     }
 }
