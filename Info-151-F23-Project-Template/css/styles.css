@@ -336,7 +336,18 @@ template {
 body {
   background-color: var(--purple);
 }
-
+body header #hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 75%;
+  grid-template-columns: 25% 75%;
+}
+body header #grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% auto;
+  grid-template-columns: 75% auto;
+}
 /* =============
     Typography
 ============= */

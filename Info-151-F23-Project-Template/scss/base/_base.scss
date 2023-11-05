@@ -5,7 +5,47 @@
 
 body{
     background-color: var(--purple);
-}
+    header{
+        #hero{
+            display: grid;
+            grid-template-columns: 25% 75%;
+            img{
+
+            }
+            nav{
+
+            }
+        }
+            #grid-container{
+                display: grid;
+                grid-template-columns: 75% auto;
+                div{
+                    h1{
+        
+                    }
+                    p{
+            
+                    }
+                    ul{
+                        li{
+                            button{
+            
+                            }
+                        }
+                    }
+                }
+                ul{
+                    li{
+                        img{
+        
+                        }
+                    }
+
+                }
+                    
+                }
+            }
+        }
 
 
 
