@@ -387,6 +387,10 @@ textarea {
     Footer
 ============= */
 body footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 27% 33% 30% 30%;
+  grid-template-columns: 27% 33% 30% 30%;
   background-color: var(--navy);
 }
 body footer p {

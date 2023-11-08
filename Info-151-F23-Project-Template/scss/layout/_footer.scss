@@ -4,6 +4,17 @@
 
 body{
     footer{
+        display: grid;
+        grid-template-columns: 27% 33% 30% 30%;
+        //justify-content: center;
+
+        div{
+            //height: 100px;
+            //display: flex;
+            //justify-content: space-evenly;
+            
+        }
+
         background-color: var(--navy);
         p{
             color: var(--white);
