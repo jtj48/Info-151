@@ -6,13 +6,38 @@ body{
     // display: flex;
     // justify-content: space-evenly;
     // flex-direction: row;
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    #grid-container{
+        display: grid;
+        grid-template-columns: 100%;
+        
+
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        
+        ul{
+            li{
+                
+            }
+        }
+    }
+    
+
     #Classic{
         background-color: var(--purple);
     }
-
-    h1{
-        font-family: 'Open Sans', sans-serif;
-    }
+ 
+   
 
 
     ul{
