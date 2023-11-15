@@ -1,3 +1,26 @@
 /* =============
     Navigation
 ============= */
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+        li{
+            a:link, a:visited{
+                padding: 15px;
+            }
+            a:hover, a:active{
+
+            }
+        }
+    }
+
+    
+}
