@@ -384,4 +384,6 @@ header nav ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
 }
