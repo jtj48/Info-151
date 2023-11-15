@@ -365,6 +365,10 @@ textarea {
 ============= */
 header {
   padding: 12px 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 25% 25%;
+  grid-template-columns: 50% 25% 25%;
 }
 
 /* =============
@@ -380,7 +384,7 @@ header {
   height: 100vh;
 }
 
-header nav ul {
+nav ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
