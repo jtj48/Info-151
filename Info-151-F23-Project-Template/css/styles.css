@@ -367,7 +367,7 @@ textarea {
     Footer
 ============= */
 #hero {
-  background-image: url(../img/hero.jpg);
+  background-image: url("../img/hero.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
