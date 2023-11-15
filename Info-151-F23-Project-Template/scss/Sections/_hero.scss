@@ -8,3 +8,22 @@
     background-size: cover;
     height: 100vh;
 }
+
+header{
+    #logo-container{
+
+    }
+    nav{
+        ul{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            justify-content: space-evenly;
+            li{
+                
+            }
+            button{
+                
+            }
+        }
+    }
+}
