@@ -2,11 +2,18 @@
     Navigation
 ============= */
 
+
+
+.showMainNav{
+    display: block;
+}
+
+
 a{
     text-decoration: none;
 }
 
-nav{
+#mainNav{
     ul{
         display: flex;
         justify-content: flex-end;
