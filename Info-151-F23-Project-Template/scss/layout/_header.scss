@@ -5,16 +5,15 @@
 header{
     padding: 12px 24px;
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 0%;
     grid-template-areas: 
-    "logo burger"
-    "nav nav nav";
+    "logo nav";
 
 
     #logo-container{
-        //border: 1px solid black;
+     //border: 1px solid black;
         display: flex;
-        justify-content: flex-end;
+        justify-content: left;
         grid-area: logo;
     }
 

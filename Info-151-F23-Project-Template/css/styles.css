@@ -397,9 +397,9 @@ header {
   padding: 12px 24px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% auto;
-  grid-template-columns: 50% auto;
-      grid-template-areas: "logo burger" "nav nav nav";
+  -ms-grid-columns: 0%;
+  grid-template-columns: 0%;
+      grid-template-areas: "logo nav";
 }
 header #logo-container {
   -ms-grid-row: 1;
@@ -407,14 +407,12 @@ header #logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   grid-area: logo;
 }
 header #burger-container {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,9 +423,8 @@ header #burger-container {
 }
 
 nav {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
   grid-area: nav;
 }
 
