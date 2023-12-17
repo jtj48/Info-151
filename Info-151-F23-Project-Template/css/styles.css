@@ -339,6 +339,12 @@ ul li {
   list-style: none;
 }
 
+.show-sign-in-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
 /* =============
     Typography
 ============= */
@@ -467,3 +473,9 @@ nav ul {
 /* =============
     Sign up
 ============= */
+body header #signUp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+}
