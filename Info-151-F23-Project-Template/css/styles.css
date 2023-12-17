@@ -439,14 +439,6 @@ header #burger-container {
           justify-content: flex-end;
   grid-area: burger;
 }
-header #signUp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
 
 nav {
   -ms-grid-row: 1;
