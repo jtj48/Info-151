@@ -439,6 +439,14 @@ header #burger-container {
           justify-content: flex-end;
   grid-area: burger;
 }
+header #signUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 
 nav {
   -ms-grid-row: 1;
@@ -473,13 +481,14 @@ nav ul {
 /* =============
     Sign up
 ============= */
-body header #signUp form {
+body #signUp form {
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 16px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-box-align: center;
@@ -488,5 +497,4 @@ body header #signUp form {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: none;
 }

@@ -1,5 +1,7 @@
 
-
+/* =============
+    Nav
+============= */
 var mainNav = document.querySelector("#mainNav");
 
 var burgerBtn = document.querySelector("#burger-container")
@@ -23,9 +25,12 @@ function showNav(){
 burgerBtn.addEventListener("click",showNav);
 
 
+/* =============
+    Sign In
+============= */
 
-var signUpBtn = document.querySelector("sign-up-btn")
-var signUpContainer =  document.querySelector("signUp")
+var signUpBtn = document.querySelector("#sign-up-btn")
+var signUpContainer =  document.querySelector("#signUp")
 
 function showSignUpModal(){
     signUpContainer.classList.add("show-sign-up-container");
