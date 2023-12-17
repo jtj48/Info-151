@@ -24,12 +24,12 @@ burgerBtn.addEventListener("click",showNav);
 
 
 
-var signInBtn = document.querySelector("#sign-up-btn")
-var signInContainer =  document.querySelector("#signUp")
+var signUpBtn = document.querySelector("sign-up-btn")
+var signUpContainer =  document.querySelector("signUp")
 
-function showSignInModal(){
-    signInContainer.classList.add("show-sign-in-container");
+function showSignUpModal(){
+    signUpContainer.classList.add("show-sign-up-container");
 }
 
 
-signInBtn.addEventListener("click",showSignInModal);
+signUpBtn.addEventListener("click",showSignUpModal);

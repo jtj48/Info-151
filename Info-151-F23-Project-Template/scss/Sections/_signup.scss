@@ -7,9 +7,22 @@ body{
     header{
 
         #signUp{
-            display: grid;
-            grid-template-columns: auto;
+            form{
+                //display: flex;
+                flex-direction: column;
+                //grid-template-columns: auto;
+                //grid-template-rows: auto;
+                padding: 16px;
+                position: absolute;
+                top: 50%; 
+                left: 50%; 
+                //width: 100%;
+                align-items: center;
+                justify-content: center;
+                //height: 100%;
 
+                display: none;
+            }
         }
     }
 

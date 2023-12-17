@@ -339,7 +339,7 @@ ul li {
   list-style: none;
 }
 
-.show-sign-in-container {
+.show-sign-up-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -473,9 +473,20 @@ nav ul {
 /* =============
     Sign up
 ============= */
-body header #signUp {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto;
-  grid-template-columns: auto;
+body header #signUp form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
 }
